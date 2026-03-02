@@ -13,9 +13,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zisam Community - Dark Mode Ready</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="icon" type="image/png" sizes="64x64" href="./../assets/img/favicon.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="/assets/img/favicon.png">
     
-    <link rel="shortcut icon" href="./../assets/img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/assets/img/favicon.png" type="image/x-icon">
 
     <script src="https://cdn.tailwindcss.com"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
@@ -53,7 +53,7 @@
 <body class="bg-base-white dark:bg-gray-900 font-sans text-gray-700 dark:text-gray-300 flex flex-col min-h-screen transition-colors duration-300" x-data="{ mobileMenuOpen: false }" :class="{'menu-open': mobileMenuOpen}">
 
 <div x-data="{ html: '' }" 
-     x-init="fetch('../components/navbar.html').then(r => r.text()).then(t => html = t)" 
+     x-init="fetch('/components/navbar.html').then(r => r.text()).then(t => html = t)" 
      x-html="html">
      </div>
 
@@ -203,7 +203,7 @@
 </main>
 
 <div x-data="{ html: '' }" 
-     x-init="fetch('../components/footer.html').then(r => r.text()).then(t => html = t)" 
+     x-init="fetch('/components/footer.html').then(r => r.text()).then(t => html = t)" 
      x-html="html">
      </div>
 
