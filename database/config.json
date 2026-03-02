@@ -26,13 +26,13 @@
     "favicon": "assets/img/favicon.png"
   },
    "pages": {
-      "home": "pages/home.html",
-      "event": "pages/event.html",
-      "artikel": "pages/artikel.html",
-      "galeri": "pages/galeri.html",
-      "kontak": "pages/kontak.html",
-      "portofolio": "pages/portofolio.html",
-      "privasi": "pages/privasi.html",
-      "syarat": "pages/syarat.html"
+      "home": "/pages/home.html",
+      "event": "/pages/event.html",
+      "artikel": "/pages/artikel.html",
+      "galeri": "/pages/galeri.html",
+      "kontak": "/pages/kontak.html",
+      "portofolio": "/pages/portofolio.html",
+      "privasi": "/pages/privasi.html",
+      "syarat": "/pages/syarat.html"
     }
 }
